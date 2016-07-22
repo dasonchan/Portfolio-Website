@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatiple" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+        <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            document.createElement( "picture" );
+        </script>
+        <script src="js/picturefill.js" async></script>
+    </head>
+    <body>
+        <section class="container">
+            <header class="row">
+                <section class="col-md-6">
+                    <img class="title-logo" src="images/batman_logo.jpg" alt="logo">
+                </section>
+                <section class="col-md-6 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Dasheng Chen</h1>
+                    <h4>email: dchen@rollins.edu</h4>
+                    <h4>mobile: (407)761-5379</h4>
+                    <a href="https://www.facebook.com" class="zocial-facebook">Facebook</a>
+                    <a href="https://www.linkedin.com" class="zocial-linkedin">LinkedIn</a>
+                </section>
+            </header>
+            <section class="row">
+                <section class="col-md-12">
+                    <hr>
+                </section>
+            </section>
+            <main class="row">
+                <section class="col-md-12" id="main_image">
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="http://placehold.it/3000x1500 2x, http://placehold.it/3000x1500" />
+                        <source media="(min-width: 500px)" srcset="http://placehold.it/2000x1000" />
+                        <img class="img-responsive" src="http://placehold.it/1000x500.jpg" alt="The main picture">
+                    </picture>
+                </section>
+            </main>
+            <section class="row">
+                <section class="col-md-12">
+                    <h2 class="text-muted">Feature Work</h2>
+                </section>
+            </section>
+            <section class="row text-center">
+                <section class="col-md-4">
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="images/project_1-1600_large_2x.jpg 2x, images/project_1-800_large_1x.jpg" />
+                        <source media="(min-width: 500px)" srcset="images/project_1_medium.jpg" />
+                        <img class="img-responsive" src="images/project_1_small.jpg" alt="Screenshot of project 1" data-toggle="modal" data-target="#project1">
+                    </picture>
+                    <h3 class="text-uppercase">Project 1
+                    </h3>
+                    <address>
+                        <a href="">Link</a>
+                    </address>
+                </section>
+                <section class="col-md-4">
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="images/project_2-1600_large_2x.jpg 2x, images/project_2-800_large_1x.jpg" />
+                        <source media="(min-width: 500px)" srcset="images/project_2_medium.jpg" />
+                        <img class="img-responsive" src="images/project_2_small.jpg" alt="Screenshot of project 2" data-toggle="modal" data-target="#project2">
+                    </picture>
+                    <h3 class="text-uppercase">Project 2</h3>
+                    <address>
+                        <a href="">Link</a>
+                    </address>
+                </section>
+                <section class="col-md-4">
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="images/project_3-1600_large_2x.jpg 2x, images/project_3-800_large_1x.jpg" />
+                        <source media="(min-width: 500px)" srcset="images/project_3_medium.jpg" />
+                        <img class="img-responsive" src="images/project_3_small.jpg" alt="Screenshot of project 3" data-toggle="modal" data-target="#project3">
+                    </picture>
+                    <h3 class="text-uppercase">Project 3</h3>
+                    <address>
+                        <a href="">Link</a>
+                    </address>
+                </section>
+            </section>
+        </section>
+        <!-- Modal -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel_1">Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="http://placehold.it/750x750" alt="project 1 screenshot">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel_2">Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="http://placehold.it/750x750" alt="project 1 screenshot">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel_3">Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="http://placehold.it/750x750" alt="project 1 screenshot">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

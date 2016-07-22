@@ -1,0 +1,50 @@
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  width: 3em;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #7d97ad;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    max-width: 30%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+hr {
+    color: #2d3c49;
+    size: 30px;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
